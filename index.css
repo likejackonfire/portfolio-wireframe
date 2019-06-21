@@ -4,24 +4,16 @@
 }
 
 .greeting-text {
-	font-family: 'Volkhov', serif;
+	font-family: 'Boogaloo', cursive;
 	font-size: 1.25em;
 }
 
 body{
-    background: linear-gradient(#2C5364, #e125bc);
+    background: linear-gradient(#1b42ab, #e125bc);
     background-size:auto;
     background-repeat: repeat;
     background-position:center;
-    padding:1.3333333333rem
-}
-
-a {
-	color: #222;
-	transition: color .25s ease-in-out;
-}
-a:hover {
-	color: #e125bc;
+    padding:1.3333333333rem;
 }
 
 *{
@@ -29,10 +21,10 @@ a:hover {
     position:relative
 }
 
-
 body {
-	font: 100%/1.25 'Cormorant Garamond', Georgia, serif;
+	font: 100%/1.25  'Cormorant Garamond', serif;
 	color: rgb(255, 255, 255);
+  line-height: 1.5;
 }
 
 a {
@@ -40,8 +32,9 @@ a {
 	text-decoration:none;
 	transition: color .25s ease-in-out;
 }
+
 a:hover {
-	color: #d25d97;
+	color: #39b484;
 }
 
 ul,ol{
@@ -87,6 +80,12 @@ ul,ol{
 
 h1, h2 {
 	font-variant: small-caps;
+  font-size: 5vw;
+}
+@media screen and (min-width: 1200px) {
+  div {
+     font-size: 36px;
+  }
 }
 
 .greeting-image {
@@ -95,8 +94,8 @@ h1, h2 {
 	width: 100%;
 	height: auto;
 	display: flex;
-    float: right;
-    border: 5px solid white;
+	float: right;
+  border: 5px solid white;
 }
 
 .screencap{
