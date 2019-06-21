@@ -1,0 +1,156 @@
+.box {
+	display: flex;
+	align-items: center;
+}
+
+.greeting-text {
+	font-family: 'Volkhov', serif;
+	font-size: 1.25em;
+}
+
+body{
+    background: linear-gradient(#2C5364, #e125bc);
+    background-size:auto;
+    background-repeat: repeat;
+    background-position:center;
+    padding:1.3333333333rem
+}
+
+a {
+	color: #222;
+	transition: color .25s ease-in-out;
+}
+a:hover {
+	color: #e125bc;
+}
+
+*{
+    box-sizing:border-box;
+    position:relative
+}
+
+
+body {
+	font: 100%/1.25 'Cormorant Garamond', Georgia, serif;
+	color: rgb(255, 255, 255);
+}
+
+a {
+    color: aliceblue;
+	text-decoration:none;
+	transition: color .25s ease-in-out;
+}
+a:hover {
+	color: #d25d97;
+}
+
+.justify {
+	text-align: justify;
+}
+.center {
+	display: block;
+	text-align: center;
+	margin-bottom: -1.66666667em;
+}
+
+ul,ol{
+    list-style:none
+}
+
+.small_caps {
+	font-feature-settings: 'SS12';
+	text-transform: lowercase;
+	font-variant: small-caps;
+	letter-spacing: 0.10416667em;
+}
+
+.bio_section {
+	padding-top: 2em;
+	display: flex;
+	flex-direction: row;
+}
+
+.header {
+	margin: 0 auto;
+	padding: 1.5em;
+	border-bottom: 1px solid #eee;
+}
+
+.header ul {
+	text-align: center;
+}
+
+.header li {
+    display: inline-block;
+	margin: 0 0.41666667em;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	letter-spacing: 0.10416667em;
+	font-weight: 500;
+}
+
+.header a {
+	padding: 0.41666667em;
+	margin: -0.41666667em;
+}
+
+#grad {
+background-color: #0F2027;
+background-image: linear-gradient(to right, #203A43, #2C5364);
+}
+
+h1, h2 {
+	font-variant: small-caps;
+}
+
+.greeting-image {
+	margin-left: 20px;
+	max-width: 400px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	float: right;
+}
+
+.screencap{
+    width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screencap {
+    max-width: 800px;
+    height: auto;
+}
+
+.description {
+	font-size: .75em;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.footer {
+    margin: 0 auto;
+    padding: 1.66666667em;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+@media only screen and (min-width: 672px)  {
+	body {
+		font-size: 150%;  /* 24px */
+	}
+}
+@media only screen and (min-width: 1500px)  {
+	body {
+		font-size: 175%; /* 28px */
+	}
+}
+@media only screen and (min-width: 2000px) {
+	body {
+		font-size: 200%; /* 32px */
+	}
+}
